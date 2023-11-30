@@ -1,0 +1,46 @@
+.my_pic{
+    margin: 0 auto;
+}
+
+
+.my_pic .my_gallery a img {
+ 
+  width: 200px;
+  height: 200px;
+  border: 2px solid #fff;
+  -webkit-transition: -webkit-transform .15s ease;
+  -moz-transition: -moz-transform .15s ease;
+  -o-transition: -o-transform .15s ease;
+  -ms-transition: -ms-transform .15s ease;
+  transition: transform .15s ease;
+  position: relative;
+}
+
+.my_pic .my_gallery a:hover img {
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  z-index: 5;
+}
+
+.clear {
+  clear: both;
+  float: none;
+  width: 100%;
+}
+
+
+
+@media (max-width:430px){
+   
+  #cta .my_gallery{
+  
+   float: right;
+  
+       
+    }
+   
+    
+}

@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>هنــا انــا</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet" /> <!-- https://fonts.google.com/ -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" /> <!-- https://getbootstrap.com/ -->
+    <link href="fontawesome/css/all.min.css" rel="stylesheet" /> <!-- https://fontawesome.com/ -->
+    <link href="css/style.css" rel="stylesheet" />
+    
+    
+    
+    
+     <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- font -->
+ 
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@700;800&family=Noto+Kufi+Arabic:wght@500&family=Noto+Sans+Arabic:wght@500;600&family=Reem+Kufi:wght@400;600&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@700;800&family=Noto+Kufi+Arabic:wght@500&family=Noto+Sans+Arabic:wght@500;600&family=Qahiri&family=Reem+Kufi+Fun:wght@700&family=Reem+Kufi:wght@400;600&display=swap" rel="stylesheet">
+
+  
+<link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet"> 
+    
+    
+    
+    
+    
+    <style>
+        
+        .wrap1 {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Cairo', sans-serif;
+ 
+}
+
+.button1 {
+  width: 140px;
+  height: 45px;
+  font-family: 'Cairo', sans-serif;
+  font-size: 18px;
+  
+  font-weight: 500;
+  color: white;
+  background-color: turquoise;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  }
+
+.button1:hover {
+  background-color: #2EE59D;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+    
+
+
+
+
+
+
+@media (max-width:500px){
+ h2{
+ 
+    display:inline;
+  align-items: center;
+  text-align: center;
+  
+  font-size: 20px;font-weight: 500;
+  
+}
+    
+}
+
+@media only screen 
+and (min-device-width : 350px) 
+and (max-device-width : 600px) 
+and (orientation : landscape) {
+ h2{
+      display: inline-block;
+ 
+ text-align: center;
+ margin-right:-50px;
+  font-size: 15px;font-weight: 500;
+  
+  
+}
+    
+}
+
+@media (min-width:1200px){
+   
+   .navbar-expand-lg .navbar-nav .tm-nav-link {
+  
+     padding-left: 30px;
+       
+    }
+   
+    h2{
+        font-size: 27px;font-weight: 900;
+    } 
+}
+
+
+
+/* for the text*/
+
+
+.gradient-text {
+  /* Fallback: Set a background color. */
+  background-color: #CA4246;
+  
+  /* Create the gradient. */
+   background-image: linear-gradient(
+        45deg,
+        #CA4246 16.666%, 
+        #E16541 16.666%, 
+        #E16541 33.333%, 
+        #F18F43 33.333%, 
+        #F18F43 50%, 
+        #8B9862 50%, 
+        #8B9862 66.666%, 
+        #476098 66.666%, 
+        #476098 83.333%, 
+        #A7489B 83.333%);
+  
+  /* Set the background size and repeat properties. */
+  background-size: 100%;
+  background-repeat: repeat;
+
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  
+  /* Animate the text when loading the element. */
+    /* This animates it on page load and when hovering out. */
+    animation: rainbow-text-simple-animation-rev 0.75s ease forwards;
+
+}
+
+.gradient-text:hover{
+    animation: rainbow-text-simple-animation 0.5s ease-in forwards;
+}
+
+
+/* Move the background and make it smaller. */
+/* Animation shown when entering the page and after the hover animation. */
+@keyframes rainbow-text-simple-animation-rev {
+    0% {
+        background-size: 650%;
+    }
+    40% {
+        background-size: 650%;
+    }
+    100% {
+        background-size: 100%;
+    }
+}
+
+/* Move the background and make it larger. */
+/* Animation shown when hovering over the text. */
+@keyframes rainbow-text-simple-animation {
+    0% {
+        background-size: 100%;
+    }
+    80% {
+        background-size: 650%;
+    }
+    100% {
+        background-size: 650%;
+    }
+}
+  
+
+
+/* Style the rest of the page. */
+body {
+  background-color: #fdf1f0;
+}
+
+header {
+  margin-top: 1em;
+  margin-top: calc(50vh - 3em);
+}
+
+h1 {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: normal;
+  font-size: 6em;
+  text-align: center;
+  margin-bottom: 0;
+  margin-bottom: -0.25em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  width: 605px;
+}
+
+        
+    </style>
+    
+    
+   
+</head>
+
+<body>
+    <div class="tm-container">        
+        <div>
+            <div class="tm-row pt-4">
+                <div class="tm-col-left">
+                    <div class="tm-site-header media">
+                          <i>   <a href="https://honaana.net/" target="_blank" >
+                        <img src="img/hon.png" style="height: 140px;width:140px; margin-top: -30px;margin-left:100px"     alt=" هنا انا ">
+                    </a></i>
+                        <div class="media-body">
+                          <!--  <h1 style= "">هنــا انــا</h1>-->
+                         <!--   <p class="tm-slogon">مرحبا بكم في موسم الرياض</p>-->
+                        </div>        
+                    </div>
+                </div>
+                <div class="tm-col-right" >
+                    <nav class="navbar navbar-expand-lg" id="tm-main-nav">
+                        <button class="navbar-toggler toggler-example mr-0 ml-auto" type="button" 
+                            data-toggle="collapse" data-target="#navbar-nav" 
+                            aria-controls="navbar-nav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span><i class="fas fa-bars"></i></span>
+                        </button>
+                        <div class="collapse navbar-collapse tm-nav justify-content-start" id="navbar-nav" dir="rtl" >
+                            <ul class="navbar-nav justify-content-center" >
+                               
+                                
+                                
+                                 <li class="nav-item">
+                                     <a class="nav-link tm-nav-link" href="main.php" target="_blank" style="font-family: 'Cairo', sans-serif;">الرئيسية</a>
+                                </li>
+                                
+                                
+                                
+                                  <li class="nav-item">
+                                    <a class="nav-link tm-nav-link" href="main.php" target="_blank" style="font-family: 'Cairo', sans-serif;">اتصل بنا</a>
+                                </li>
+                                
+                                                               
+                                
+                            </ul>                            
+                        </div>                        
+                    </nav>
+                </div>
+            </div>
+            
+           <div class="container" style="margin-top:400px">
+  <div class="row justify-content-md-center">
+    <div class="col col-lg-2">
+     
+    </div>
+    <div class="col-md-auto">
+     <h2 style="font-family: 'Cairo', sans-serif;text-align: justify;  text-justify: inter-word; " >أرحب بكم في موقعي في موسم الرياض</h2>
+    </div>
+    <div class="col col-lg-2">
+     
+    </div>
+  </div>
+  
+</div>
+                       
+            <br>              
+                        
+                       
+                         
+                     
+                     <div class="wrap1">
+                         <a href="main.php" target="_blank" > <button class="button1" style="font-family: 'Cairo', sans-serif">تفضل من هنا</button></a>
+                    </div>
+                     
+                     
+                     
+                     
+                     
+                     
+                   
+            </div>
+        </div>        
+
+        <div class="tm-row">
+            <div class="tm-col-left text-center">            
+                <ul class="tm-bg-controls-wrapper">
+                    
+                </ul>            
+            </div>        
+            <div class="tm-col-right tm-col-footer">
+                <footer class="tm-site-footer text-right">
+                    <p class="mb-0">Copyright <strong><span>Ragami</span></strong> 
+                    
+                    | Design: <a rel="nofollow" target="_parent" href="https://honaana.net/" class="tm-text-link">Honaana</a></p>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                </footer>
+            </div>  
+        </div>
+
+        <!-- Diagonal background design -->
+        <div class="tm-bg">
+            <div class="tm-bg-left"></div>
+            <div class="tm-bg-right"></div>
+        </div>
+    
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.backstretch.min.js"></script>
+    <script src="js/sit-script.js"></script>
+</body>
+</html>
